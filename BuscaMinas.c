@@ -1,5 +1,4 @@
-// Autor: Pablo Lizama // Rut: 19.930.343-0 // Sección 0-L-7 //
-// Fecha de creación: 21/05/2019 //
+// Autor: Pablo Lizama 
 
 //BUSCAMINAS//
 
