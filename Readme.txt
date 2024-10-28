@@ -1,7 +1,7 @@
-INSTRUCCIONES DE BUSCAMINAS
+MINESWEEPER INSTRUCTIONS
 
-
-Como entrada de este programa se tiene un documento formato .txt, con el nombre "tablero.txt", conteniendo los espacios con minas simbolizados por 1 y los que no tienen minas simbolizados por 0 de un largo de 8 filas por 8 columnas, sin limite de minas, y estos separados por espacios, de la forma:
+The input for this program is a .txt file named "tablero.txt" containing spaces with mines represented by 1 and spaces without mines represented by 0. 
+The grid has a fixed size of 8 rows by 8 columns, with no limit on the number of mines. The values are separated by spaces, as shown below:
 
 0 0 1 0 0 1 0 0
 0 0 0 0 0 1 0 0
