@@ -12,20 +12,20 @@ The grid has a fixed size of 8 rows by 8 columns, with no limit on the number of
 1 0 0 0 0 1 0 0 
 0 0 0 1 0 0 0 0
 
-El cual puede ser editado al abrirlo como documento de texto para cambiar el contenido a transformar a buscaminas, o un archivo de texto con este mismo formato que posea el nombre "tablero.txt".
+You can edit this file as a text document to change the contents, transforming it into a Minesweeper grid, or create a new file with the same format and name, "tablero.txt".
 
-Al ejecutar el programa de buscaminas se darán las siguientes opciones:
--Para modo jugador, ingresar 1.
--Para modo computadora, ingresar 2.
--Para salir del programa, ingresar cualquier otro numero.
+When running the Minesweeper program, you will be presented with the following options:
 
-MODO JUGADOR:
-Se mostrará en pantalla el buscaminas junto a sus coordenadas en la parte superior y tambien la izquierda, donde las de la parte superior simbolizan las columnas y la izquierda simbolizan las filas, del 1 al 8. Luego se solicitará al usuario las coordenadas deseadas, en caso de estar fuera del largo de lo que se muestra, se pedirá nuevamente, y en el caso de que esté dentro del rango, entonces se mostrara el buscaminas con las posiciones reveladas al elejir esa coordenada o será una derrota en el caso de que encuentre una bomba; Este proceso se repetirá hasta que el usuario encuentre una mina o revele todas las posiciones excepto las que contienen minas.
-Al salir de este proceso, se dará la opcion de volver a ejecutar el programa. en el cual ingresar uno será para salir y cualquier otro numero que se ingrese será continuar ejecutando.
+To play in Player Mode, enter 1.
+To play in Computer Mode, enter 2.
+To exit the program, enter any other number.
+PLAYER MODE:
+The Minesweeper board will be displayed on the screen with coordinates on the top and left sides. The top coordinates represent columns, and the left coordinates represent rows, numbered from 1 to 8. The program will ask the user for the desired coordinates. If the coordinates are outside the grid's range, the program will prompt for them again. If the coordinates are within range, the Minesweeper board will update to reveal the chosen position. If the revealed position contains a mine, the game ends in defeat. The process continues until the user finds a mine or reveals all positions except those containing mines.
 
-MODO COMPUTADORA:
-Esta función que resuelve el buscaminas de forma automatica aun no está implementada, por lo que solo se da la opción de volver a ejecutar el programa o salir.
+After exiting this mode, the program will offer the option to run again: entering 1 will exit the program, while any other number will continue execution.
 
-SALIR DEL PROGRAMA:
-Al elegir esta opción, el programa se deja de ejecutar.
+COMPUTER MODE:
+This function, which solves Minesweeper automatically, is not yet implemented. The only options available are to run the program again or exit.
 
+EXITING THE PROGRAM:
+Choosing this option stops the program from running.
