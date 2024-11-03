@@ -388,8 +388,8 @@ void jugador(int listaAux[8][8], int tabla[8][8], int revelados[128],int x, int 
 
 
 int main(){
-	FILE * tablero = fopen("tablero.txt","r");
-	if(tablero==NULL){
+	FILE * board = fopen("board.txt","r");
+	if(board==NULL){
 		printf("No se ha podido abrir el archivo\n");
 		return -1;
 	}
@@ -400,7 +400,7 @@ int main(){
 	while(fila<8){
 		int columna=0;
 		while(columna<8){
-			fscanf(tablero, "%s",lectura);
+			fscanf(board, "%s",lectura);
 			tabla[fila][columna]=atoi(lectura);
 		
 			if(tabla[fila][columna]==1){
@@ -410,7 +410,7 @@ int main(){
 		}
 		fila++;
 	}
-		fclose(tablero);
+		fclose(board);
 	//funcion que contiene la lista con las minas y minas cercanas
  	transformarTablero(tabla);
  	//cuenta las bombas
