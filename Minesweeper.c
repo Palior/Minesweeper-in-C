@@ -1,16 +1,17 @@
 // Autor: Pablo Lizama 
 
-//BUSCAMINAS//
+//minesweeper//
 
 #include <stdio.h>
 #include <stdlib.h>
 
 
-//Función que analiza el elemento que se encuentra en la parte inferior del elemento que se encuentra en las coordenadas fila, columna
-//retornando un 1 si el elemento es igual al buscado y 0 si no lo es
-//Entradas: tabla[8][8] es un arreglo de 8 x 8 que contiene todos los elementos de la "matriz", fila y columna son las posiciones del elemento
-//que se analizará, buscar es el numero con el cual se está realizando la comparación
-//Salida: 1 si se cumple la condición y 0 si no la cumple
+// Function that analyzes the element located below the element at the specified row and column coordinates
+// Returns 1 if the element matches the target value, and 0 otherwise
+// Inputs: table[8][8] is an 8x8 array containing all the elements of the "matrix," row and column represent 
+// the position of the element to be analyzed, and target is the number to compare against
+// Output: 1 if the condition is met, and 0 otherwise
+
 int abajo(int tabla[8][8], int fila, int columna, int buscar){ 
 	if(tabla[fila+1][columna]==buscar){
 		return 1;
